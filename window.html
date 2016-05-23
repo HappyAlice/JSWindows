@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS-Windows</title>
+		<meta charset = "utf-8">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/window.css">
+	</head>
+	<body>
+		<!--wrapper the information include position、 size、 title、 content、 button to create the dialog  -->
+		<div class="information">
+			<form>
+				<li class="message">
+					<label>Input position(x, y)</label>
+					<input class="bass-input" name="positionX" id="win-positionX" type="text" >
+					<input class="next-input" name="positionY" id="win-positionY" type="text" >
+				</li>
+				<li class="message">
+					<label>Input Size(width, height)</label>
+					<input class="bass-input" name="width" id="win-width" type="text" >
+					<input class="next-input" name="height" id="win-height" type="text" >
+				</li>
+				<li class="message">
+					<label>Input Header Text</label>
+					<input class="message-input" name="title" id="win-title" type="text" >
+				</li>
+				<li class="message">
+					<label>Input Content Text</label>
+					<input class="message-input" name="content" id="win-content" type="text" >
+				</li>
+			</form>
+			<button class="create-window" id="win-create">Create Windows</button>
+		</div>
+
+		<!-- wrapper the container and the windows -->
+		<div class="parent-container" id="parent-container"></div>
+
+		<script src = "js/Util.js"></script>
+		 <!-- <script src = "js/create.js"></script> -->
+		<script src = "js/window.js"></script>
+	</body>
+</html>
