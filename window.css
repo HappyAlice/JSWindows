@@ -1,0 +1,126 @@
+body{
+	font-family: "microsoft yahei";
+}
+
+/*  S 基本信息演示设置 */
+
+.information{
+	width: 500px;
+	height: 100px;
+	margin: 20px 180px;
+}
+.message{
+	margin-bottom: 8px;
+}
+.bass-input,
+.message-input,
+.next-input{
+	position: absolute;
+	left: 380px;
+	border: 1px solid #82a9e2;
+}
+.next-input{
+	position: absolute;
+	left: 440px;
+}
+.bass-input,
+.next-input{
+	width: 50px;
+}
+.message-input{
+	width: 120px;
+}
+.create-window{
+	position: absolute;
+	left: 380px;
+}
+
+/*  E 基本信息演示设置 */
+
+
+/* S 窗体样式设置 */
+
+.parent-container{
+	position: relative;
+	width: 1000px;
+	height: 450px;
+	border: 1px solid #82a9e2;
+	margin: 30px auto;
+}
+.simple-window-container{
+	position: absolute;
+	/*top: 0;
+	left: 0;*/
+}
+.simple-window{
+	position: absolute;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, .75);
+	border: 8px solid #b0c8f6;
+	border-top: 0;
+	box-sizing: border-box;
+}
+.simple-window-head{
+	height: 35px;
+	line-height: 35px;
+	background-color: #b0c8f6;
+	cursor: move;
+}
+.simple-window-body{
+	/*width: 200px;*/
+	/*height: 50px;*/
+	background-color: #fff;
+	border-radius: 2px;
+}
+.simple-window-resize{
+	position: relative;
+	top: 5px;
+	float: right;
+}
+.simple-window li{
+	display: inline-block;
+	margin-right: 5px;
+}
+.title span{
+	position: relative;
+	top: -10px;
+	margin-left: 18px;
+}
+
+/* S= 小图标 */
+.icon{
+	background: url(../images/icon.png) no-repeat;
+}
+.title{
+	width: 17px;
+	height: 16px;
+	background-position: 0 0;
+	margin: 10px 5px auto;
+}
+.btn-min-top{
+	width: 16px;
+	height: 16px;
+	background-position: -20px 0;
+	cursor: pointer;		
+}
+.btn-min-bottom{
+	width: 16px;
+	height: 16px;
+	background-position: -20px -20px;
+	cursor: pointer;		
+}
+.btn-max{
+	width: 16px;
+	height: 16px;
+	background-position: -40px 0;	
+	cursor: pointer;		
+}
+.btn-close{
+	width: 16px;
+	height: 16px;
+	background-position: -60px 0;
+	cursor: pointer;			
+}
+/* E= 小图标 */
+
+
+/* E 窗体样式设置 */
